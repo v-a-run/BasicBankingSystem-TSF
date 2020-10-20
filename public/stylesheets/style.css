@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE4B5;
+}
+
+/* Navbar Styling */
+nav{
+    height: 4rem;
+    background-color: #02040F;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    padding: 1.36rem;
+}
+
+.link a{
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+}
+
+.link1 a{
+    color: #d7263d;
+}
+
+.link2 a{
+    color : #4361ee;
+}
+
+.link3 a{
+    color: #20fc8f;
+}
+
+.link1:hover{
+    background-color: #d7263d;
+    color : black;
+}
+
+.link2:hover{
+    color : black;
+    background-color: #4361ee;
+}
+
+.link3:hover{
+    color : black;
+    background-color: #20fc8f;
+}
+
+li:hover a {
+    color: inherit;
+}
+
+.brand{
+    font-family: 'Caveat', cursive;
+    color: blanchedalmond;
+    padding-top: 1rem;
+}
+
+
+/* index.ejs Styling */
+
+.container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin: 2rem;
+    padding : 0.75rem;
+    font-size: 2rem;
+    background-color: #002642;
+    border-radius: 5%;
+}
+
+.btn a{
+    text-decoration: none;
+    color : #F7FE72;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn:hover{
+    background-color: #02040F;
+}
+
+.btn:hover a{
+    color: blanchedalmond;
+}
+
+.content{
+    margin-top: 4rem;
+    margin-left: 24%;
+    max-width: 50vw;
+}
+
+.heading{
+    margin-left: 25%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+.main-content{
+    margin-top: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding : 0 25%;
+}
+.main-content2{
+    margin-top: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+    padding : 0 38%;
+}
+
+/* Table Styling */
+.table{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table {
+    font-family: 'Roboto Slab', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #02040F;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+  /* error.ejs styling */
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+}
+
+
+/* view.ejs styling */
+.view-header{
+    margin-top: 1rem;
+    font-family: 'Arvo', serif;
+    margin-left: 40%;
+}
+
+.select-btn{
+    font-family: 'Comic Neue', cursive;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding : 0.2rem;
+    background-color: #02040F;
+    
+}
+
+.select-btn a{
+    text-decoration: none;
+    color : #F3F9D2;
+}
+
+.select-btn:hover {
+    background-color: #F2AF29;
+}
+
+.select-btn:hover a{
+    color: #02040F;
+}
+
+
+/* transfer.ejs styling */
+.transfer-header{
+    margin-top: 1rem;
+    font-family: 'Arvo', serif;
+    margin-left: 44%;
+}
+
+.transfer-btn{
+    font-family: 'Comic Neue', cursive;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding : 0.2rem;
+    background-color: #d7263d;
+}
+
+.transfer-btn a{
+    text-decoration: none;
+    color: #02040F;
+}
+
+.transfer-btn:hover{
+    background-color: #4361ee;
+}
+
+.transfer-btn:hover a{
+    color: #02040F;
+}
+
+
+/* form.ejs styling */
+.form-body1{
+    margin-top: 1rem;
+    margin-left: 35%;
+    margin-right: 33%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.5rem;
+}
+
+.form-body1 h1{
+    color: #440381;
+}
+
+.form-body2{
+    margin-top: 1rem;
+    margin-left: 35%;
+    margin-right: 33%;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.5rem;
+}
+
+.form-body2 h1{
+    color: #440381;
+}
+
+.form{
+    margin-top: 3rem;
+    margin-left: 35%;
+}
+
+.form label{
+    font-family: 'Arvo', serif;
+    font-size: 1.5rem;
+}
+
+.form input{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.transfer2-btn{
+    margin: 0.5rem 0 0 15%;
+    font-family: 'Comic Neue', cursive;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding : 0.2rem;
+    background-color: #d7263d;
+    color: whitesmoke;
+}
+
+.transfer2-btn:hover{
+    background-color: #19bb6a;
+    color: #02040F;
+}
+
+
+/* history.ejs styling*/
+.history-header{
+    margin-top: 1rem;
+    font-family: 'Arvo', serif;
+    margin-left: 35%;
+}
